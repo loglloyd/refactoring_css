@@ -1,10 +1,8 @@
-#header h1 {
+#header {
   text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
-#header p {
-  text-align: center;
-}
 
 main {
   margin: auto;
@@ -14,62 +12,70 @@ main {
 }
 
 .left {
-  width: 40%;
+  background-color: #f7f7f7;
+  width: 350px;
+  height: 360px;
   float: left;
   padding-top: 20px;
+  margin-right: 20px;
+}
+
+.left img {
+  width: 300px;
+  padding: 25px;
 }
 
 .right {
   width: 40%;
   float: left;
 }
-
+/*
 .headphones_section {
   width: 100%;
   clear: both;
-}
+}*/
 
-#headphones_picture {
+.picture {
   width: 40%;
   float: left;
-  margin: 20px 0px 0px 0px;
+  margin-top: 20px;
 }
 
-.headphones_section img {
+.section img {
   width: 100%;
 }
 
-.laptop_section {
+/*.laptop_section {
   width: 100%;
   clear: both;
-}
+}*/
 
-#laptop_picture {
+/*#laptop_picture {
   width: 40%;
   float: left;
   margin: 20px 0px 0px 0px;
-}
+}*/
 
-.laptop_section img {
+/*.section img {
   width: 100%;
-}
+}*/
 
-.window_section {
+/*.window_section {
   width: 100%;
   clear: both;
-}
-
-.window_section img {
+}*/
+/*
+.section img {
   width: 100%;
-}
+}*/
 
-#window_picture {
+/*#window_picture {
   width: 40%;
   float: left;
   margin: 20px 0px 0px 0px;
-}
+}*/
 
-#text {
+.text {
   width: 50%;
   float: left;
   margin: 0px 0px 0px 10px;
